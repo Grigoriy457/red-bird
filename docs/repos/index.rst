@@ -46,7 +46,7 @@ Pydantic offers.
 
 .. code-block:: python
 
-    from pydantic import BaseModel
+    from pydantic.v1 import BaseModel
 
     class Car(BaseModel):
         registration_number: str
@@ -71,7 +71,7 @@ Alternatively, the ``id_field`` could be set using ``__id_field__`` magic attrib
 
 .. code-block:: python
 
-    from pydantic import BaseModel
+    from pydantic.v1 import BaseModel
 
     class Car(BaseModel):
         __id_field__ = "registration_number"

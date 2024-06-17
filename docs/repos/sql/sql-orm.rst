@@ -80,7 +80,7 @@ Using ORM model and Pydantic Model:
 
 .. code-block:: python
 
-    from pydantic import BaseModel
+    from pydantic.v1 import BaseModel
     from sqlalchemy.orm import declarative_base
     
     Base = declarative_base()

@@ -35,7 +35,7 @@ the structure of the items:
 
 .. code-block:: python
 
-    from pydantic import BaseModel
+    from pydantic.v1 import BaseModel
 
     class Car(BaseModel):
         registration_number: str

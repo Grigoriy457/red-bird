@@ -1,6 +1,6 @@
 import argparse
 
-from pydantic import BaseModel, Field
+from pydantic.v1 import BaseModel, Field
 from redbird.repos import SQLRepo
 
 class Item(BaseModel):

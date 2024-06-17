@@ -66,7 +66,7 @@ as the model of the repository. Here is an example to do so:
 
 .. code-block:: python
 
-    from pydantic import BaseModel, Field
+    from pydantic.v1 import BaseModel, Field
 
     class LogRecord(BaseModel):
         """A logging record

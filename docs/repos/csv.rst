@@ -22,7 +22,7 @@ With Pydantic model:
 
 .. code-block:: python
 
-    from pydantic import BaseModel
+    from pydantic.v1 import BaseModel
     from redbird.repos import CSVFileRepo
 
     class MyItem(BaseModel):
